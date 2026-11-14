@@ -1,0 +1,154 @@
+/* ═══════════════════════════════════════════════════════════════════════
+   CHANTIER — charte du site des CAP conduite d'engins (1CAP-CETPC), écrite
+   le 14 novembre 2026, quand ils ont reçu un site à eux (« un site à eux »,
+   « une charte chantier à part ») : jusque-là, ils passaient par celui du CAP
+   Électricien, dont la moitié est un cours qu'ils ne suivent pas.
+
+   Le terrassement, donc : le sable compacté, la plaque d'engin, la rubalise.
+   L'accent est l'ORANGE ENGIN, la seule famille libre — jaune au CAP, bleu en
+   2de, rouge au CTRM, sarcelle au BTS, brun en domotique, graphite chez le
+   professeur, vert bouteille au labo, violet en maths.
+
+   Trois signes, et ils tiennent à toute largeur, téléphone compris :
+     · une RUBALISE sous l'en-tête, bandes en biais — le chantier balisé ;
+     · les cartes en PLAQUES : un filet épais en tête, comme la tôle d'un engin ;
+     · le CODE en plaque d'immatriculation, encre et sable, lisible de loin.
+
+   La bande de gauche dit la famille : une fiche, un défi (encre), une
+   simulation du chantier (orange), le jeu d'entraînement (vert).
+
+   Polices : Barlow Semi Condensed pour les titres (le lettrage des panneaux de
+   chantier), Archivo pour lire, Chivo Mono pour ce qui se relève — un nombre,
+   une unité, un code.
+   ═══════════════════════════════════════════════════════════════════════ */
+
+@font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(polices/barlow-semi-condensed-600-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:600;font-display:swap;src:url(polices/barlow-semi-condensed-600-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(polices/barlow-semi-condensed-700-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Barlow Semi Condensed';font-style:normal;font-weight:700;font-display:swap;src:url(polices/barlow-semi-condensed-700-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:400 800;font-stretch:100%;font-display:swap;src:url(polices/archivo-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Archivo';font-style:normal;font-weight:400 800;font-stretch:100%;font-display:swap;src:url(polices/archivo-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+@font-face{font-family:'Chivo Mono';font-style:normal;font-weight:400 600;font-display:swap;src:url(polices/chivo-mono-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+@font-face{font-family:'Chivo Mono';font-style:normal;font-weight:400 600;font-display:swap;src:url(polices/chivo-mono-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+
+:root{
+  --fond:#e9e4d8;          /* le sable compacté */
+  --carte:#fbf9f4;         /* la feuille posée dessus */
+  --carte2:#f2eee4;
+  --encre:#1d1b16;
+  --encre2:#57524a;
+  --trait:#bdb5a6;
+  --trait2:#d8d1c3;
+  --froid:#a3470b;         /* l'orange engin — l'accent du site, 4,7:1 sur le sable */
+  --teinte:#a3470b;
+  --tiede:#6b5a2e;         /* la terre */
+  --chaud:#a50c24;         /* le danger, le piège */
+  --vert:#2f6b2f;          /* les réponses justes, le jeu */
+  --violet:#4a4f7a;
+  --ombre:0 1px 0 rgba(29,27,22,.12);
+  --r:2px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --fond:#15130f; --carte:#1e1b16; --carte2:#25221c;
+    --encre:#efe9df; --encre2:#a9a196;
+    --trait:#4a443b; --trait2:#332f28;
+    --froid:#f08a3c; --teinte:#f08a3c; --tiede:#d2b06a;
+    --chaud:#ef7a66; --vert:#79c27a; --violet:#a9addb;
+    --ombre:0 1px 0 rgba(0,0,0,.55);
+  }
+}
+:root[data-theme="dark"]{
+  --fond:#15130f; --carte:#1e1b16; --carte2:#25221c;
+  --encre:#efe9df; --encre2:#a9a196;
+  --trait:#4a443b; --trait2:#332f28;
+  --froid:#f08a3c; --teinte:#f08a3c; --tiede:#d2b06a;
+  --chaud:#ef7a66; --vert:#79c27a; --violet:#a9addb;
+  --ombre:0 1px 0 rgba(0,0,0,.55);
+}
+
+/* ─── les polices, reposées sélecteur par sélecteur ───────────────────── */
+body{font-family:Archivo,"Helvetica Neue",Arial,sans-serif}
+h1,h2,h3,h4,.gro{font-family:"Barlow Semi Condensed",Archivo,"Helvetica Neue",Arial,sans-serif;font-weight:700;letter-spacing:0}
+.mono,code{font-family:"Chivo Mono",ui-monospace,monospace}
+header.tete .num{font-family:"Chivo Mono",monospace}
+.sur{font-family:"Chivo Mono",monospace;letter-spacing:.12em}
+.k-savoirs{font-family:"Chivo Mono",monospace}
+.tag{font-family:"Chivo Mono",monospace}
+.contenu{font-family:"Chivo Mono",monospace}
+nav.somm a{font-family:Archivo,sans-serif}
+.formule>p:first-child{font-family:"Chivo Mono",monospace}
+.formule li strong:first-child{font-family:"Chivo Mono",monospace}
+.etapes li::before{font-family:"Chivo Mono",monospace}
+figcaption{font-family:Archivo,sans-serif}
+.s-nom,.s-pet,.s-lab,.s-tit{font-family:"Chivo Mono",monospace}
+.replis>.chapeau,.titre-appro{font-family:"Barlow Semi Condensed",Archivo,sans-serif}
+.etiq{font-family:"Chivo Mono",monospace}
+th{font-family:Archivo,sans-serif}
+.quiz>.chapeau{font-family:"Barlow Semi Condensed",Archivo,sans-serif}
+.qq button,.score{font-family:Archivo,sans-serif}
+.outil .k,.chaine,.champ .v{font-family:"Chivo Mono",monospace}
+input[type=number],select,.bt{font-family:Archivo,sans-serif}
+.entete-c,.res .gros b{font-family:"Chivo Mono",monospace}
+.exo>.k{font-family:"Chivo Mono",monospace}
+.exo input[type=text],.exo textarea{font-family:Archivo,sans-serif}
+.exo .unite{font-family:"Chivo Mono",monospace}
+.exo .btn{font-family:Archivo,sans-serif}
+.chercher input{font-family:Archivo,sans-serif}
+.resultats a{font-family:Archivo,sans-serif}
+.resultats .ou,.raccourcis a{font-family:"Chivo Mono",monospace}
+.espace>.compte{font-family:"Chivo Mono",monospace}
+.frise .n{font-family:"Chivo Mono",monospace}
+.frise .t{font-family:Archivo,sans-serif}
+.frise .meta{font-family:"Chivo Mono",monospace}
+.outils-grille .t{font-family:Archivo,sans-serif}
+.outils-grille .ou,.filtres select{font-family:"Chivo Mono",monospace}
+.exo-ligne a{font-family:Archivo,sans-serif}
+.exo-ligne .ou{font-family:"Chivo Mono",monospace}
+.grille-f .k,.porte .k{font-family:"Chivo Mono",monospace}
+
+/* ─── l'en-tête : la tôle, puis la rubalise ─────────────────────────────
+   La rubalise est dessinée, pas écrite : des bandes en biais, orange et
+   sable. Assez fine pour baliser sans crier. */
+header.tete{border-top:6px solid var(--encre);padding-top:20px}
+header.tete .sur{color:var(--froid)}
+header.tete h1 span{color:var(--froid)}
+header.tete::after{
+  content:"";display:block;height:10px;margin:18px 0 0;
+  background:repeating-linear-gradient(-45deg,var(--froid) 0 12px,var(--carte) 12px 24px);
+  border-top:1px solid var(--encre);border-bottom:1px solid var(--encre);
+}
+
+/* ─── les cartes : des plaques ──────────────────────────────────────────
+   Un filet épais en tête, une bande de famille à gauche, le code en plaque.
+   La famille se lit sur l'adresse : la chaîne ne pose aucune classe pour
+   cela, et il n'y a rien à ajouter au générateur. */
+.grille-f a,.porte{
+  border:1px solid var(--trait);border-top:4px solid var(--encre);border-left:5px solid var(--trait);
+  border-radius:var(--r);background:var(--carte);
+}
+.grille-f a:hover,.porte:hover{border-color:var(--encre);border-left-color:var(--froid)}
+.grille-f a[href*="DEFI-"],.porte[href*="DEFI-"]{border-left-color:var(--encre)}
+.grille-f a[href*="SIMU-"],.porte[href*="SIMU-"]{border-left-color:var(--froid)}
+.grille-f a[href*="entrainement/"],.porte[href*="entrainement/"]{border-left-color:var(--vert)}
+/* la porte mise en avant suit l'accent, quelle que soit la teinte que le kit
+   donne à sa cible (une page, comme les simulations, y est verte) */
+.porte.vedette{--teinte:var(--froid);border-color:var(--froid);border-top-color:var(--froid)}
+
+/* le code en plaque : FICHE 19, DÉFI 5 se lisent de loin */
+.grille-f a .k,.porte .k{
+  display:inline-block;padding:2px 7px;margin-bottom:7px;
+  border:1px solid var(--encre);border-radius:var(--r);
+  color:var(--carte);background:var(--encre);
+  font-size:11.5px;letter-spacing:.08em;text-transform:uppercase;
+}
+.grille-f a:hover .k,.porte:hover .k{background:var(--froid);border-color:var(--froid)}
+
+/* ─── le reste de la maison ─────────────────────────────────────────── */
+.chapeau-f{color:var(--froid);letter-spacing:.1em}
+.espace>h2{border-bottom:3px solid var(--encre);padding-bottom:6px}
+.doc-barre{border-bottom:3px solid var(--froid)}
+.frise .n{color:var(--froid)}
+.recap{border-color:var(--froid);color:var(--froid)}
+.cle{border-left-color:var(--froid)}
+.jauge-lecture i{background:var(--froid)}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="robots" content="noindex, nofollow">
+<title>Défi 6 — le terrassement du parking</title>
+<link rel="stylesheet" href="../assets/kit.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/site.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/chantier.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/vivant.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/doc.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/calculette.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/formulaire.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/impression.css?v=42aa485c">
+<script src="../assets/kit.js?v=42aa485c-568ef9" defer></script>
+<script src="../assets/site.js?v=42aa485c" defer></script>
+<script src="../assets/vivant.js?v=42aa485c" defer></script>
+<script src="../assets/plan.js?v=42aa485c" defer></script>
+<script src="../assets/doc.js?v=42aa485c" defer></script>
+<script src="../assets/nombres.js?v=42aa485c" defer></script>
+<script src="../assets/calculette.js?v=42aa485c" defer></script>
+<script src="../assets/formulaire.js?v=42aa485c" defer></script>
+<script src="../assets/formulaire-donnees.js?v=42aa485c" defer></script>
+<script src="../assets/outils-page.js?v=42aa485c" defer></script>
+
+<div class="page" data-site="cetpc" data-page="fiches/DEFI-06-le-terrassement-du-parking">
+<div class="jauge-lecture" id="jauge-lecture"><i></i></div><div class="barre-site"><a class="accueil" href="../index.html">Les maths du chantier</a><span class="fleches"><a class="fleche" href="DEFI-05-le-foisonnement.html" rel="prev" title="Défi 5 — foisonnement et rotations" aria-label="Défi 5 — foisonnement et rotations">&lsaquo;</a><a class="fleche" href="FICHE-01-virgule.html" rel="next" title="Fiche 01 — la virgule" aria-label="Fiche 01 — la virgule">&rsaquo;</a></span><button type="button" class="lu" data-lu="fiches/DEFI-06-le-terrassement-du-parking">Marquer comme lu</button></div>
+<header class="tete">
+  
+  <div class="titraille">
+    <p class="sur">CAP · défi de dépassement · niveau 2</p>
+    <h1>Le terrassement<span>du parking</span></h1>
+  </div>
+  <p class="accroche">Un seul chantier, du premier mètre cube à la décision finale. Deux coefficients qui vont en sens contraire, et pourtant on multiplie dans les deux cas.</p>
+  <p class="contenu">4 questions · 8 exercices · 1 repli · 1 figure</p>
+  <p class="k-savoirs">Savoirs travaillés</p><div class="savoirs"><span class="tag">GE Géométrie — aires et volumes</span><span class="tag">AA Algèbre et analyse — coefficients, masse volumique, pourcentages</span></div>
+</header>
+<aside class="prerequis"><p class="chapeau-p">Avant de commencer</p><ul><li><b><a href="FICHE-11-aires.html">Les aires</a></b><span class="ou">Fiche 11 — aires</span><span class="car">le parking est une aire, à décaper sur une épaisseur.</span></li><li><b><a href="FICHE-12-volumes.html">Les volumes</a></b><span class="ou">Fiche 12 — volumes</span><span class="car">aire fois épaisseur donne les mètres cubes à évacuer.</span></li><li><b><a href="FICHE-19-masse-volumique.html">La masse volumique</a></b><span class="ou">Fiche 19 — masse volumique</span><span class="car">la grave se commande en tonnes, pas en mètres cubes.</span></li><li><b><a href="FICHE-20-foisonnement.html">Le foisonnement</a></b><span class="ou">Fiche 20 — foisonnement</span><span class="car">la terre évacuée gonfle dans le camion.</span></li></ul></aside>
+<nav class="somm"><div class="in"><a href="#ce-qu-il-faut-savoir-avant">Ce qu’il faut savoir avant</a><a href="#le-dossier">Le dossier</a><a href="#le-quiz">Le quiz</a><a href="#etape-1-decaper-et-evacuer">Étape 1. Décaper et évacuer</a><a href="#etape-2-apporter-la-grave">Étape 2. Apporter la grave</a><a href="#pour-les-plus-courageux">Pour les plus courageux</a></div></nav>
+<h2 id="ce-qu-il-faut-savoir-avant">Ce qu’il faut savoir avant</h2>
+<div class="etapes">
+<ol type="1">
+<li>Le <strong>foisonnement</strong> fait gonfler la terre extraite : volume en place × <strong>1,25</strong>.</li>
+<li>Le <strong>compactage</strong> tasse la grave livrée : il faut en livrer <strong>15 % de plus</strong> que le volume voulu, donc × <strong>1,15</strong>.</li>
+<li>Des mètres cubes aux tonnes : × la <strong>masse volumique</strong>, ici 1,9 t/m³.</li>
+<li>Un devis a des postes qui <strong>suivent la surface</strong> et un poste qui <strong>ne la suit pas</strong>.</li>
+</ol>
+</div>
+<figure><img src="img/DEFI-06-le-terrassement-du-parking/fig-coupe-parking.png" alt="" /></figure>
+<div class="cle">
+<p><strong>La terre gonfle, la grave se tasse, et pourtant on multiplie dans les deux cas.</strong> L’erreur attendue est de diviser par 1,15 sur la grave : il en manquerait un quart du chantier.</p>
+</div>
+<h2 id="le-dossier">Le dossier</h2>
+<p><strong>Le chantier.</strong> Créer un parking de <strong>45 m sur 22 m</strong>. <strong>Décaper</strong> la terre végétale sur <strong>25 cm</strong> et l’évacuer, puis <strong>apporter</strong> une couche de grave de <strong>20 cm</strong>, <strong>une fois compactée</strong>.</p>
+<p><strong>Pour la terre.</strong> Foisonnement <strong>25 %</strong> · bennes de <strong>14 m³</strong> · <strong>95 €</strong> le voyage à la décharge.</p>
+<p><strong>Pour la grave.</strong> Elle se tasse au compactage : en livrer <strong>15 % de plus</strong> en volume · masse volumique <strong>1,9 t/m³</strong> · prix <strong>28 € la tonne</strong>.</p>
+<p><strong>Pour le matériel.</strong> Pelle et compacteur : <strong>620 € par jour</strong>, sur <strong>3 jours</strong>.</p>
+<div class="piege">
+<p><strong>On oublie que la location ne dépend pas de la surface.</strong> Elle coûte 1 860 € que le parking fasse 990 m² ou 800 m². C’est ce qui fait que <strong>réduire la surface de 19 % ne fait pas baisser le coût de 19 %</strong>, et c’est la dernière question du défi.</p>
+</div>
+<div class="replis"><p class="chapeau">Pour aller plus loin</p><details class="appro"><summary><span class="niv"></span><span class="titre-appro">Deux coefficients, un seul sens</span><span class="etiq">Pour aller plus loin</span><span class="chev">&rsaquo;</span></summary><div class="corps"><p>Le foisonnement et le compactage semblent opposés : l’un gonfle, l’autre tasse. Pourtant les deux se traduisent par une <strong>multiplication</strong>.</p>
+<p><strong>Pour la terre</strong>, on part du volume du trou et on cherche ce qu’il y aura dans les bennes : plus grand, donc × 1,25.</p>
+<p><strong>Pour la grave</strong>, on part du volume qu’on veut <strong>une fois tassé</strong> et on cherche ce qu’il faut <strong>livrer</strong> : plus grand aussi, donc × 1,15.</p>
+<p>Dans les deux cas, <strong>le nombre cherché est le plus gros des deux</strong>. Se poser cette seule question (lequel des deux volumes est le plus grand ?) suffit à trouver le sens.</p></div></details>
+</div><h2 id="le-quiz">Le quiz</h2>
+<div class="quiz">
+<ul>
+<li>100 m³ de terre en place donnent, en benne : 80 m³ | <strong>125 m³</strong></li>
+<li>Pour 100 m³ de grave compactée, il faut en livrer : 87 m³ | <strong>115 m³</strong></li>
+<li>1 m³ de grave à 1,9 t/m³ pèse : 0,53 t | <strong>1,9 t</strong></li>
+<li>La location de 3 jours dépend de la surface : oui | <strong>non</strong></li>
+</ul>
+</div>
+<h2 id="etape-1-decaper-et-evacuer">Étape 1. Décaper et évacuer</h2>
+<section class="exo" id="DEFI-06-le-terrassement-du-parking-e1" data-exo="DEFI-06-le-terrassement-du-parking-e1" data-type="calcul" data-savoir="GE" data-a="IXgueGB4OTs2OS82eHZ4LHhgY2NqdGp2eC41Nnhga3RqdngveGB4NwYvamo4aHgn"><p class="k">Exercice · GE</p><h4>La surface du parking</h4><div class="enonce">
+
+<p>Quelle est la surface du parking ?</p>
+</div><div class="indice" hidden>Longueur × largeur. C’est le point de départ de tout le devis.</div></section>
+<section class="exo" id="DEFI-06-le-terrassement-du-parking-e2" data-exo="DEFI-06-le-terrassement-du-parking-e2" data-type="calcul" data-savoir="GE" data-a="IXgueGB4OTs2OS82eHZ4LHhgaG5tdG92eC41Nnhga3RqdngveGB4NwYvamo4aXgn"><p class="k">Exercice · GE</p><h4>La terre en place</h4><div class="enonce">
+
+<p>Quel volume de terre végétale faut-il décaper ?</p>
+</div><div class="indice" hidden>La surface, multipliée par l’épaisseur : en mètres, pas en centimètres.</div></section>
+<section class="exo" id="DEFI-06-le-terrassement-du-parking-e3" data-exo="DEFI-06-le-terrassement-du-parking-e3" data-type="calcul" data-savoir="AA" data-a="IXgueGB4OTs2OS82eHZ4LHhgaGtib3RqdnguNTZ4YGh0anZ4L3hgeAYvaGo7OXgn"><p class="k">Exercice · AA</p><h4>Le coût de l’évacuation</h4><div class="enonce">
+
+<p>Combien coûte l’évacuation de cette terre, une fois foisonnée ?</p>
+</div><div class="indice" hidden>Trois étapes : le volume foisonné, le nombre de voyages arrondi au-dessus, puis le prix.</div></section>
+<h2 id="etape-2-apporter-la-grave">Étape 2. Apporter la grave</h2>
+<section class="exo" id="DEFI-06-le-terrassement-du-parking-e4" data-exo="DEFI-06-le-terrassement-du-parking-e4" data-type="calcul" data-savoir="AA" data-a="IXgueGB4OTs2OS82eHZ4LHhgaGhtdG12eC41NnhgaHRqdngveGB4NwYvamo4aXgn"><p class="k">Exercice · AA</p><h4>La grave à commander</h4><div class="enonce">
+
+<p>Quel volume de grave faut-il <strong>commander</strong>, avant compactage ?</p>
+</div><div class="indice" hidden>Le volume voulu une fois tassé, puis la majoration. Le nombre commandé est le plus grand des deux.</div></section>
+<section class="exo" id="DEFI-06-le-terrassement-du-parking-e5" data-exo="DEFI-06-le-terrassement-du-parking-e5" data-type="calcul" data-savoir="AA" data-a="IXgueGB4OTs2OS82eHZ4LHhga2hra2l0bG52eC41NnhgaHRqdngveGB4Bi9oajs5eCc="><p class="k">Exercice · AA</p><h4>Le coût de la grave</h4><div class="enonce">
+
+<p>Combien coûte cette grave ?</p>
+</div><div class="indice" hidden>Passez d’abord des mètres cubes aux tonnes, puis appliquez le prix à la tonne.</div></section>
+<section class="exo" id="DEFI-06-le-terrassement-du-parking-e6" data-exo="DEFI-06-le-terrassement-du-parking-e6" data-type="calcul" data-savoir="AA" data-a="IXgueGB4OTs2OS82eHZ4LHhga2x0aWh2eC41NnhgaXRqdngveGB4Bi9oajs5dTcGL2pqOGh4Jw=="><p class="k">Exercice · AA</p><h4>Le prix de revient au mètre carré</h4><div class="enonce">
+
+<p>En ajoutant la location des trois jours, quel est le <strong>prix de revient au mètre carré</strong> de parking ?</p>
+</div><div class="indice" hidden>Le total des trois postes, divisé par la surface. La location ne dépend pas de la surface, mais elle entre dans le total.</div></section>
+<h2 id="pour-les-plus-courageux">Pour les plus courageux</h2>
+<p><em>La carte blanche du défi papier : deux pourcentages qui devraient être égaux et ne le sont pas.</em></p>
+<section class="exo" id="DEFI-06-le-terrassement-du-parking-e7" data-exo="DEFI-06-le-terrassement-du-parking-e7" data-type="calcul" data-savoir="AA" data-a="IXgueGB4OTs2OS82eHZ4LHhga210aXZ4LjU2eGBsdGp2eC94YHh/eCc="><p class="k">Exercice · AA</p><h4>Le parking réduit</h4><div class="enonce">
+
+<p>Le client réduit son parking à <strong>40 m sur 20 m</strong>. <strong>De quel pourcentage le coût total baisse-t-il ?</strong> Donnez-le au dixième.</p>
+</div><div class="indice" hidden>Refaites le devis entier avec la nouvelle surface, puis comparez les deux totaux. Un poste ne bouge pas.</div></section>
+<section class="exo" id="DEFI-06-le-terrassement-du-parking-e8" data-exo="DEFI-06-le-terrassement-du-parking-e8" data-type="justification" data-savoir="AA" data-a="IXgueGB4MC8pLjM8Mzk7LjM1NHgn"><p class="k">Exercice · AA</p><h4>Pourquoi 19 % de surface ne font pas 19 % de coût</h4><div class="enonce">
+
+<p>La surface baisse de <strong>19,2 %</strong>, le coût de <strong>17,3 %</strong> seulement. <strong>Expliquez pourquoi</strong>, en nommant précisément ce qui, dans ce devis, ne diminue pas quand la surface diminue.</p>
+</div><div class="indice" hidden>Reprenez les trois postes du devis et demandez-vous lequel est identique dans les deux versions.</div><ul class="verifier" hidden><li>J’ai calculé la baisse de surface, et je l’ai comparée à la baisse de coût</li><li>J’ai nommé la location comme le poste qui ne bouge pas</li><li>J’ai dit que ce poste pèse donc plus lourd sur un petit chantier</li><li>J’ai donné le montant de ce poste fixe</li></ul></section>
+<nav class="suite"><p class="chapeau-s">La suite</p><div class="pas-a-pas"><a class="av" href="DEFI-05-le-foisonnement.html" rel="prev"><span class="k">&lsaquo; Précédent</span><span class="t">Défi 5 — foisonnement et rotations</span></a><a class="ap" href="FICHE-01-virgule.html" rel="next"><span class="k">Suivant &rsaquo;</span><span class="t">Fiche 01 — la virgule</span></a></div></nav>
+<p class="pied">Défi de dépassement, niveau 2. Aucun corrigé ; rien n'est enregistré, rien n'est noté.</p><p class="pied-site"><a class="mentions" href="../mentions-legales.html">Mentions légales</a></p>
+</div>
+

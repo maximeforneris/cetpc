@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta name="robots" content="noindex, nofollow">
+<title>Défi 5 — foisonnement et rotations</title>
+<link rel="stylesheet" href="../assets/kit.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/site.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/chantier.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/vivant.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/doc.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/calculette.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/formulaire.css?v=42aa485c">
+<link rel="stylesheet" href="../assets/impression.css?v=42aa485c">
+<script src="../assets/kit.js?v=42aa485c-568ef9" defer></script>
+<script src="../assets/site.js?v=42aa485c" defer></script>
+<script src="../assets/vivant.js?v=42aa485c" defer></script>
+<script src="../assets/plan.js?v=42aa485c" defer></script>
+<script src="../assets/doc.js?v=42aa485c" defer></script>
+<script src="../assets/nombres.js?v=42aa485c" defer></script>
+<script src="../assets/calculette.js?v=42aa485c" defer></script>
+<script src="../assets/formulaire.js?v=42aa485c" defer></script>
+<script src="../assets/formulaire-donnees.js?v=42aa485c" defer></script>
+<script src="../assets/outils-page.js?v=42aa485c" defer></script>
+
+<div class="page" data-site="cetpc" data-page="fiches/DEFI-05-le-foisonnement">
+<div class="jauge-lecture" id="jauge-lecture"><i></i></div><div class="barre-site"><a class="accueil" href="../index.html">Les maths du chantier</a><span class="fleches"><a class="fleche" href="DEFI-04-la-rampe.html" rel="prev" title="Défi 4 — la rampe" aria-label="Défi 4 — la rampe">&lsaquo;</a><a class="fleche" href="DEFI-06-le-terrassement-du-parking.html" rel="next" title="Défi 6 — le terrassement du parking" aria-label="Défi 6 — le terrassement du parking">&rsaquo;</a></span><button type="button" class="lu" data-lu="fiches/DEFI-05-le-foisonnement">Marquer comme lu</button></div>
+<header class="tete">
+  
+  <div class="titraille">
+    <p class="sur">CAP · défi de dépassement · niveau 2</p>
+    <h1>Le foisonnement<span>et les rotations</span></h1>
+  </div>
+  <p class="accroche">486 m³ à évacuer, des bennes de 14 m³, et une journée de sept heures. Quatre arrondis en cascade, et un camion plus lent qui gagne à la fin.</p>
+  <p class="contenu">4 questions · 8 exercices · 10 items d'entraînement · 1 repli · 3 figures</p>
+  <p class="k-savoirs">Savoirs travaillés</p><div class="savoirs"><span class="tag">AA Algèbre et analyse — coefficient multiplicateur, proportionnalité</span><span class="tag">GE Géométrie — volume d'un pavé droit</span></div>
+</header>
+<aside class="prerequis"><p class="chapeau-p">Avant de commencer</p><ul><li><b><a href="FICHE-20-foisonnement.html">Le foisonnement</a></b><span class="ou">Fiche 20 — foisonnement</span><span class="car">le coefficient 1,25 et ce qu'il fait au volume.</span></li><li><b><a href="FICHE-12-volumes.html">Le volume d'une fouille</a></b><span class="ou">Fiche 12 — volumes</span><span class="car">longueur fois largeur fois profondeur, en mètres cubes.</span></li><li><b><a href="FICHE-16-passage-par-lunite.html">Le passage par l'unité</a></b><span class="ou">Fiche 16 — passage par l'unité</span><span class="car">le nombre de rotations d'un camion se trouve en divisant par ce qu'emporte un camion.</span></li></ul></aside>
+<nav class="somm"><div class="in"><a href="#ce-qu-il-faut-savoir-avant">Ce qu’il faut savoir avant</a><a href="#le-foisonnement-en-deux-lignes">Le foisonnement, en deux lignes</a><a href="#je-m-entraine">Je m’entraîne</a><a href="#le-quiz">Le quiz</a><a href="#le-probleme-la-fouille-du-batiment">Le problème. La fouille du bâtiment</a><a href="#pour-les-plus-courageux">Pour les plus courageux</a></div></nav>
+<h2 id="ce-qu-il-faut-savoir-avant">Ce qu’il faut savoir avant</h2>
+<div class="etapes">
+<ol type="1">
+<li>On <strong>creuse un volume en place</strong>, on <strong>transporte un volume foisonné</strong> : × <strong>1,25</strong> pour de la terre.</li>
+<li>Une <strong>rotation</strong> est un aller, un déchargement et un retour.</li>
+<li>Un demi-voyage n’existe pas : les voyages s’arrondissent <strong>au-dessus</strong>.</li>
+<li>Une demi-rotation non plus : le nombre de rotations par jour s’arrondit <strong>au-dessous</strong>.</li>
+</ol>
+</div>
+<figure><img src="img/DEFI-05-le-foisonnement/fig-trois-ouvrages.png" alt="" /></figure>
+<div class="cle">
+<p><strong>Deux arrondis dans le même problème, et ils ne vont pas dans le même sens.</strong> Les voyages à faire s’arrondissent au-dessus, il en faut assez ; les rotations tenues dans une journée s’arrondissent au-dessous, la journée ne s’allonge pas.</p>
+</div>
+<h2 id="le-foisonnement-en-deux-lignes">Le foisonnement, en deux lignes</h2>
+<p>La terre extraite occupe <strong>plus de place</strong> que dans le sol : elle gonfle. Un foisonnement de <strong>25 %</strong> signifie que 100 m³ en place deviennent <strong>125 m³</strong> une fois dans la benne.</p>
+<figure>
+<img src="img/DEFI-05-le-foisonnement/fig-tas-de-deblais.jpg" alt="Le tas fait toujours plus de volume que le trou d’où il sort. Photo U.S. Army, domaine public, recadrée." />
+<figcaption aria-hidden="true">Le tas fait toujours plus de volume que le trou d’où il sort. Photo <a href="https://commons.wikimedia.org/wiki/File:378th_ECES_fills_the_gaps_during_RADR_training_(9474332).jpg">U.S. Army</a>, domaine public, recadrée.</figcaption>
+</figure>
+<div class="enveloppe-tbl"><table>
+<thead>
+<tr>
+<th>En place</th>
+<th>Le calcul</th>
+<th>Foisonné</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>100 m³</td>
+<td>× 1,25</td>
+<td><strong>125 m³</strong></td>
+</tr>
+<tr>
+<td>40 m³</td>
+<td>× 1,25</td>
+<td><strong>50 m³</strong></td>
+</tr>
+<tr>
+<td>150 m³ foisonnés</td>
+<td>÷ 1,25</td>
+<td><strong>120 m³</strong> en place</td>
+</tr>
+<tr>
+<td>96 m³ foisonnés</td>
+<td>÷ 1,20</td>
+<td><strong>80 m³</strong> en place</td>
+</tr>
+</tbody>
+</table></div>
+<div class="piege">
+<p><strong>On revient du foisonné à l’en place en retirant 25 %.</strong> 125 m³ moins 25 % font 93,75 m³, et non 100. Il faut <strong>diviser par 1,25</strong>, pas soustraire, le même piège qu’au défi 1, avec de la terre à la place des euros.</p>
+</div>
+<div class="replis"><p class="chapeau">Pour aller plus loin</p><details class="appro"><summary><span class="niv"></span><span class="titre-appro">Ce que dit la deuxième figure</span><span class="etiq">Pour aller plus loin</span><span class="chev">&rsaquo;</span></summary><div class="corps"><p>Les trois ouvrages du schéma se calculent différemment, et le troisième piège tout le monde.</p>
+<p><strong>La fouille</strong> et <strong>la tranchée</strong> sont des pavés droits : longueur × largeur × profondeur.</p>
+<p><strong>Le puits est un cylindre</strong>, et son énoncé donne un <strong>diamètre</strong> de 1,20 m, donc un rayon de 0,60 m. Prendre 1,20 pour rayon multiplie le volume par quatre. C’est le même piège qu’à la fiche 12, et il ne s’use pas.</p></div></details>
+</div><h2 id="je-m-entraine">Je m’entraîne</h2>
+<p><em>Les mêmes séries que sur la feuille. On remplit chaque case, puis on vérifie la série entière d’un coup.</em></p>
+<section class="serie" id="DEFI-05-le-foisonnement-s1" data-serie="DEFI-05-le-foisonnement-s1" data-savoir="PR" data-a="IXgveGB4eHZ4LjU2eGBrdGp2eDN4YAEheCx4YGtob3RqJ3YheCx4YG9odGondiF4LHhga2hqdGondiF4LHhgYmp0aicHJw=="><p class="k">Série · PR</p><h4>Série 1, en place, foisonné, et retour</h4><div class="enonce">
+
+</div><ol class="items larges"><li><span class="q">100 m³ en place, foisonnement 25 %, en m³ foisonnés</span></li><li><span class="q">40 m³ en place, foisonnement 30 %, en m³ foisonnés</span></li><li><span class="q">150 m³ foisonnés, foisonnement 25 %, en m³ en place</span></li><li><span class="q">96 m³ foisonnés, foisonnement 20 %, en m³ en place</span></li></ol><div class="indice" hidden>Les deux premières lignes multiplient, les deux dernières divisent. Le sens de lecture change tout.</div></section>
+<h3 id="lobservation-à-écrire">L’observation à écrire</h3>
+<p><em>Les deux dernières lignes de la série 1 ne se font pas comme les deux premières. C’est la question de la feuille, et elle se rédige.</em></p>
+<section class="exo" id="DEFI-05-le-foisonnement-e1" data-exo="DEFI-05-le-foisonnement-e1" data-type="justification" data-savoir="PR" data-a="IXgueGB4MC8pLjM8Mzk7LjM1NHgn"><p class="k">Exercice · PR</p><h4>Ce qui change entre le haut et le bas de la série 1</h4><div class="enonce">
+
+<p>Les deux premières lignes et les deux dernières ne se traitent pas de la même façon. <strong>Qu’est-ce qui change ?</strong> Écrivez-le en une phrase.</p>
+</div><div class="indice" hidden>Regardez, ligne par ligne, ce qui est donné et ce qui est demandé. Le coefficient ne change pas ; c’est le sens de lecture qui change.</div><ul class="verifier" hidden><li>J’ai dit ce qu’on fait dans les deux premières lignes</li><li>J’ai dit ce qu’on fait dans les deux dernières</li><li>J’ai dit ce qui le décide : le volume donné est en place, ou déjà foisonné</li></ul></section>
+<section class="serie" id="DEFI-05-le-foisonnement-s2" data-serie="DEFI-05-le-foisonnement-s2" data-savoir="GE" data-a="IXgveGB4NwYvamo4aXh2eC41Nnhga3RqdngzeGABIXgseGBrbm50aid2IXgseGBoa3RsJ3YheCx4YG50b2gnByc="><p class="k">Série · GE</p><h4>Série 2, les volumes à extraire</h4><div class="enonce">
+
+</div><ol class="items larges"><li><span class="q">une fouille de 12 m × 8 m sur 1,50 m</span></li><li><span class="q">une tranchée de 30 m × 0,60 m × 1,20 m</span></li><li><span class="q">un puits cylindrique de 1,20 m de diamètre, 4 m de profondeur</span></li></ol><div class="indice" hidden>Le puits est un cylindre, et 1,20 m est son diamètre. Le rayon en est la moitié.</div></section>
+<figure>
+<img src="img/DEFI-05-le-foisonnement/fig-benne.jpg" alt="Une rotation : la benne part pleine, revient vide, et recommence. Photo Globetrotter19, CC BY-SA 4.0, recadrée." />
+<figcaption aria-hidden="true">Une rotation : la benne part pleine, revient vide, et recommence. Photo <a href="https://commons.wikimedia.org/wiki/File:M%C3%A1ty%C3%A1s_kir%C3%A1ly_Stra%C3%9Fe,_Volvo_FM_420,_2026_Szombathely.jpg">Globetrotter19</a>, CC BY-SA 4.0, recadrée.</figcaption>
+</figure>
+<section class="serie" id="DEFI-05-le-foisonnement-s3" data-serie="DEFI-05-le-foisonnement-s3" data-savoir="PR" data-a="IXgveGB4eHZ4LjU2eGBrdGp2eDN4YAEheCx4YGN0aid2IXgseGBrYnRqJ3YheCx4YGhvaHRqJwcn"><p class="k">Série · PR</p><h4>Série 3, les rotations</h4><div class="enonce">
+
+</div><ol class="items larges"><li><span class="q">une rotation dure 45 min, le nombre de rotations en 7 h</span></li><li><span class="q">ce que font deux camions dans la journée, en rotations</span></li><li><span class="q">le volume évacué par deux camions avec une benne de 14 m³, en m³</span></li></ol><div class="indice" hidden>Sept heures en minutes d’abord. On arrondit au-dessous : une rotation entamée n’est pas finie.</div></section>
+<h2 id="le-quiz">Le quiz</h2>
+<div class="quiz">
+<ul>
+<li>40 m³ en place, foisonnement 30 %, font : 12 m³ | <strong>52 m³</strong> | 70 m³</li>
+<li>150 m³ foisonnés à 25 % viennent de : 112,5 m³ | <strong>120 m³</strong> en place</li>
+<li>Un puits de 1,20 m de diamètre a un rayon de : 1,20 m | <strong>0,60 m</strong></li>
+<li>Pour compter les voyages, j’arrondis : au-dessous | <strong>au-dessus</strong></li>
+</ul>
+</div>
+<h2 id="le-probleme-la-fouille-du-batiment">Le problème. La fouille du bâtiment</h2>
+<p>On creuse une fouille de <strong>18 m</strong> sur <strong>12 m</strong>, profonde de <strong>1,80 m</strong>. La terre a un <strong>foisonnement de 25 %</strong>. Les camions ont une benne de <strong>14 m³</strong>, une rotation dure <strong>45 minutes</strong>, la journée compte <strong>7 heures</strong>, et <strong>deux camions</strong> travaillent en alternance.</p>
+<section class="exo" id="DEFI-05-le-foisonnement-e2" data-exo="DEFI-05-le-foisonnement-e2" data-type="calcul" data-savoir="GE" data-a="IXgueGB4OTs2OS82eHZ4LHhgaWJidGJ2eC41Nnhga3RqdngveGB4NwYvamo4aXgn"><p class="k">Exercice · GE</p><h4>Le volume en place</h4><div class="enonce">
+
+<p>Quel volume de terre y a-t-il dans la fouille ?</p>
+</div><div class="indice" hidden>Trois dimensions à multiplier. C’est le volume du trou, pas celui des bennes.</div></section>
+<section class="exo" id="DEFI-05-le-foisonnement-e3" data-exo="DEFI-05-le-foisonnement-e3" data-type="calcul" data-savoir="AA" data-a="IXgueGB4OTs2OS82eHZ4LHhgbmJsdGp2eC41Nnhga3RqdngveGB4NwYvamo4aXgn"><p class="k">Exercice · AA</p><h4>Le volume foisonné</h4><div class="enonce">
+
+<p>Quel volume faut-il réellement transporter ?</p>
+</div><div class="indice" hidden>La terre gonfle en sortant du sol. Le résultat doit être plus grand.</div></section>
+<section class="exo" id="DEFI-05-le-foisonnement-e4" data-exo="DEFI-05-le-foisonnement-e4" data-type="calcul" data-savoir="AA" data-a="IXgueGB4OTs2OS82eHZ4LHhgaW90anZ4LjU2eGBrdGp2eC94YHgsNSM7PT8peCc="><p class="k">Exercice · AA</p><h4>Le nombre de voyages</h4><div class="enonce">
+
+<p>Combien de voyages faut-il en tout ?</p>
+</div><div class="indice" hidden>Le volume foisonné divisé par la benne. Un camion ne repart pas à moitié plein pour rien, mais un demi-voyage n’existe pas.</div></section>
+<section class="exo" id="DEFI-05-le-foisonnement-e5" data-exo="DEFI-05-le-foisonnement-e5" data-type="calcul" data-savoir="AA" data-a="IXgueGB4OTs2OS82eHZ4LHhga2J0anZ4LjU2eGBrdGp2eC94YHgsNSM7PT8peCc="><p class="k">Exercice · AA</p><h4>Les voyages d’une journée</h4><div class="enonce">
+
+<p>Combien de voyages <strong>les deux camions</strong> font-ils dans une journée de 7 h ?</p>
+</div><div class="indice" hidden>Combien de rotations complètes tiennent dans 7 h ? Puis doublez. Une rotation entamée ne compte pas.</div></section>
+<section class="exo" id="DEFI-05-le-foisonnement-e6" data-exo="DEFI-05-le-foisonnement-e6" data-type="justification" data-savoir="AA" data-a="IXgueGB4MC8pLjM8Mzk7LjM1NHgn"><p class="k">Exercice · AA</p><h4>Le dernier jour</h4><div class="enonce">
+
+<p>Combien de jours dure l’évacuation, et <strong>les camions travaillent-ils une journée pleine le dernier jour ?</strong> Justifiez par un calcul.</p>
+</div><div class="indice" hidden>Divisez le total des voyages par ce que font les deux camions en un jour, puis regardez ce qui reste.</div><ul class="verifier" hidden><li>J’ai donné le nombre de jours</li><li>J’ai calculé combien de voyages restent le dernier jour</li><li>J’ai comparé ce reste à une journée complète</li></ul></section>
+<h2 id="pour-les-plus-courageux">Pour les plus courageux</h2>
+<p><em>La carte blanche du défi papier. La seconde question renverse une intuition.</em></p>
+<section class="exo" id="DEFI-05-le-foisonnement-e7" data-exo="DEFI-05-le-foisonnement-e7" data-type="calcul" data-savoir="AA" data-a="IXgueGB4OTs2OS82eHZ4LHhgbnRqdnguNTZ4YGt0anZ4L3hgeDk7NzM1NCl4Jw=="><p class="k">Exercice · AA</p><h4>Tout évacuer en une journée</h4><div class="enonce">
+
+<p>Le chef veut <strong>tout évacuer en une seule journée</strong>. Combien de camions faut-il ? Attention : le nombre de voyages, lui, ne change pas.</p>
+</div><div class="indice" hidden>Combien de voyages un seul camion fait-il en une journée ? Puis combien de camions pour couvrir le total.</div></section>
+<section class="exo" id="DEFI-05-le-foisonnement-e8" data-exo="DEFI-05-le-foisonnement-e8" data-type="justification" data-savoir="AA" data-a="IXgueGB4MC8pLjM8Mzk7LjM1NHgn"><p class="k">Exercice · AA</p><h4>Le camion plus gros et plus lent</h4><div class="enonce">
+
+<p>Une entreprise propose des camions de <strong>20 m³</strong> au lieu de 14, mais leur rotation dure <strong>1 heure</strong> au lieu de 45 minutes. <strong>Sont-ils plus efficaces ?</strong> Comparez ce que chaque type évacue <strong>en une journée</strong>, puis concluez.</p>
+</div><div class="indice" hidden>Sept heures divisées par la durée d’une rotation, arrondi au-dessous, puis multiplié par la benne. Faites-le pour les deux.</div><ul class="verifier" hidden><li>J’ai calculé le nombre de rotations par jour pour chaque camion</li><li>J’ai calculé le volume évacué par jour pour chacun</li><li>J’ai dit lequel gagne, et de combien de pour cent</li><li>J’ai dit si cela change le nombre de jours du chantier</li></ul></section>
+<nav class="suite"><p class="chapeau-s">La suite</p><div class="pas-a-pas"><a class="av" href="DEFI-04-la-rampe.html" rel="prev"><span class="k">&lsaquo; Précédent</span><span class="t">Défi 4 — la rampe</span></a><a class="ap" href="DEFI-06-le-terrassement-du-parking.html" rel="next"><span class="k">Suivant &rsaquo;</span><span class="t">Défi 6 — le terrassement du parking</span></a></div></nav>
+<p class="pied">Défi de dépassement, niveau 2. Aucun corrigé ; rien n'est enregistré, rien n'est noté.</p><p class="pied-site"><a class="mentions" href="../mentions-legales.html">Mentions légales</a></p>
+</div>
+
